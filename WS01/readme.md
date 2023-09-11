@@ -51,7 +51,7 @@ If the file contains only your work or the work provided to you by your professo
 
 ### For work that is done partially by you.
 
-If the fthe ile contains work that is not yours (you found it online or somebody provided it to you), **write exactly which part of the assignment is given to you as help, who gave it to you, or which source you received it from.**  By doing this you will only lose the mark for the parts you got help for, and the person helping you will be clear of any wrongdoing.
+If the file contains work that is not yours (you found it online or somebody provided it to you), **write exactly which part of the assignment is given to you as help, who gave it to you, or which source you received it from.**  By doing this you will only lose the mark for the parts you got help for, and the person helping you will be clear of any wrongdoing.
 
 > - Add the citation to the file in which you have the borrowed code
 > - In the 'reflect.txt` submission of part 2 (DIY), add exactly what is added to which file and from where (or whom).
