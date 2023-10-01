@@ -174,7 +174,7 @@ Otherwise it will print:
 
 ## Testing Program
 
-[main.cpp](lab\main.cpp)
+[main.cpp](lab/main.cpp)
 
 ## Sample Output
 
