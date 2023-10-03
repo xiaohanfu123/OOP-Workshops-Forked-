@@ -1,5 +1,7 @@
 # Workshop #4: Constructors, Destructors, and the *this* object
 * Version 0.9 (submission is not open yet and the text is under review)
+* Version 1.0 (Submissions will be open by your profs shortly and return type of find_similar is corrected)
+
 
 
 ## Learning Outcomes
@@ -194,8 +196,9 @@ This function is to check whether the type, make, brand and year of an object of
 
 Also, implement a global function in the `sdds` namespace to check whether there are duplicate entries in the entire inventory:
 
+
 ```C++
-bool find_similar(CarInventory car[], const int num_cars)
+int find_similar(CarInventory car[], const int num_cars)   
 ```
 
 It returns the index of the first match, if it finds two `CarInventory` objects that have similar information in the car array. See below for the function implementation logic:
