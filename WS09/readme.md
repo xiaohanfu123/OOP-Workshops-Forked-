@@ -1,6 +1,7 @@
 # Workshop 9: Derived Class with a Resource
 
 * Version 1
+* Version 1.1 Added using namespace sdds to main.cpp
 
 In this workshop, you are to code/complete two classes:
 
