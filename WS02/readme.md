@@ -294,7 +294,7 @@ struct Room {
    Guest* m_guests;
 }
 ```
-#### Mandatory Guest related functions:
+#### Mandatory Room related functions:
 
 ```c++
 // sets the Room by allocating a dynamic array of guests and setting the room number 
