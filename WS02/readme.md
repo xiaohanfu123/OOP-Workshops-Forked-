@@ -1,6 +1,7 @@
 # Workshop #2: Overloading and Dynamic memory allocation
 * Version 1.0
 * [Version 1.1](#v11-correction)  (Changed the argument name asm to assess; asm is a C keyword and cannot be used as a variable name)
+* [Version 1.2](#v12) (Corrected typo in Room related functions in part 2)
 
 In this workshop, you will be able to modify the content of variables in other scopes, overload functions, allocate memory at run-time, and deallocate that memory when it is no longer required.
 
@@ -294,6 +295,8 @@ struct Room {
    Guest* m_guests;
 }
 ```
+##### V1.2   
+(Corrected the arguments from Guest to Room)
 #### Mandatory Room related functions:
 
 ```c++
@@ -304,14 +307,14 @@ void set(Room& room, int numberOfGuests, const char* roomNumber);
 // Prints the room number and names of the guests in the following lines with four 
 // spaces of indentaion 
 // See correct_output.txt for the exact format
-void print(const Guest& guest);
+void print(const Room& room);
 
 // Books a room by receiving the room number, number of guests and the guest information.
 // See correct_output.txt for the exact format
-void book(Guest& guest);
+void book(Room& room);
 
 // vacates the room by dallocating all the memory used.
-void vacate(Guest& guest);
+void vacate(Room& room);
 ```
 
 
