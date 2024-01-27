@@ -126,7 +126,7 @@ Member function to check if the object is in a safe recognizable empty state. A 
 ```C++
 void setEmpty();
 ```
-Member function sets the object a safe recognizable empty state. setEmtpy accomplishes this by setting the attributes to empty cstring, nullptr and **0.0**.
+Member function sets the object a safe recognizable empty state. setEmpty accomplishes this by setting the attributes to empty cstring, nullptr and **0.0**.
 
 ```C++
 void deallocateMemory();
@@ -179,7 +179,7 @@ This query method checks if the object is in a safe empty state. A customer is c
 
 
 ```C++
-void setEmtpy();
+void setEmpty();
 ```
 This method sets the customer to a safe empty state by setting the pointer to null and the id to 0.
 
@@ -190,7 +190,7 @@ This Member function deallocates the dynamically allocated memory for the m_name
 
 
 ```C++
-void Customer::set(int customerId, const char* name, const Car* car);
+void set(int customerId, const char* name, const Car* car);
 ```
 Member function to Set the Customer name, ID and Car.
 
