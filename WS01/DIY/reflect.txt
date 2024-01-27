@@ -1,0 +1,24 @@
+/*/////////////////////////////////////////////////////////////////////////
+						Workshop1 Part2
+Full Name  : Hanfu Xiao
+Student ID#: 033503145
+Email      : hxiao15@myseneca.ca
+Section    : NFF
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+1. For Part 1 there is nothing difficult at all.
+
+2. In the second part of the project, I initially proceeded without using the modules from Part 1, only realizing towards the end of the instructions that their integration was necessary. This realization led to some challenges, as my work in Part 1 largely involved transferring functions from main.cpp to separate header and source files without a deep understanding of each module's functionalities.
+
+When the time came to integrate these modules into Part 2, I had to spend a considerable amount of time figuring out what each module actually did. The generic nature of some function names added to the complexity, as they seemed universally applicable but were not specific about their roles. This necessitated a thorough review of each module to identify which ones were relevant for the next phase of the project.
+
+One aspect that confused me was the logic flow within these modules. Although I successfully got the program to run as expected, I realized that I still didn't fully grasp how each module functioned. This process highlighted the essence of abstraction in software development.
+
+Furthermore, I used dynamic array allocation in Part 2, which in hindsight may not have been necessary, considering the readMarks function already determines the actual size of the array.
+
+Overall, the project wasn't overly difficult, focusing more on modularization and structuring. The concept of objects has not been heavily involved yet, which I expect might change in future parts of the project."
