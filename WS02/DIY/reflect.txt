@@ -1,0 +1,32 @@
+/*/////////////////////////////////////////////////////////////////////////
+						Workshop2 Part2
+Full Name  : Hanfu Xiao
+Student ID#: 033503145
+Email      : hxiao15@myseneca.ca
+Section    : NFF
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+Workshop2 covers basic dynamic memory allocation. Although I still got some problems but they also give me good lessons.
+
+1.
+The fisrt one comes from the testing function set(G, "", "ABC", 10); 
+I was trying to use "if *(first) = '' || *(last) = '' "to check if the first charcter is empty charater but it resulted syntax error forcing me to check it with "if (*first='\0' || *last=='\0')", a way inherited from C. I guess that's also the reason real string type was introduced in C++.
+
+2.
+The second problem bothered me for a while. 
+When I ran the testing program.
+Output stopped after 
+-------------------
+Testing Room Functions: 
+Room Number: A1010
+
+and program crashed after print(A) were excuted. It seems my print(Room&) can handle both situations when guest.m_firstName!=nullptr && guest.m_lastName!=nullptr.
+
+After some Goolge , I realized that when the constructor were called , all pointers without initialization will point to some random address with garbage value which my logical expression "if (guest.m_firstName!=nullptr && guest.m_lastName!=nullptr) " cannot detect. Then I modified my set(Room&) to assign all pointer to nullptr after declaring them. I've learned that it's important to initialize all pointers to nullptr immediately after declaring them. 
+

@@ -1,18 +1,15 @@
-/***********************************************************************
-// OOP244 Workshop 2 p1: tester program
-//
-// File	main.cpp
-// Version 1.0
-//
-// Author	Fardad Soleimanloo
-// Description
-//
-// Revision History
-// -----------------------------------------------------------
-// Name            Date            Reason
-//
-/////////////////////////////////////////////////////////////////
-***********************************************************************/
+/*/////////////////////////////////////////////////////////////////////////
+                        Workshop2 Part1
+Full Name  : Hanfu Xiao
+Student ID#: 033503145
+Email      : hxiao15@myseneca.ca
+Section    : NFF
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
