@@ -1,6 +1,19 @@
-// w4_p2.cpp
-// Summer 2023 WS04 p2
-// Michael Huang
+/***********************************************************************
+// OOP244 Workshop #4 p2: tester program
+//
+// File  main.cpp
+// Version 1.0
+// Date: Summer 2023
+// Author Michael Huang
+// Description
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+//
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Guitar.h"
@@ -45,7 +58,7 @@ int main(){
   act = gu2.changeString(GuitarStr{"Nylon", 0.77}, 9);
   if (!act) cout << "Unable to change string (correct)" << endl;
   printDivider();
-  
+
   printHeader("Destring and Restring");
   gu.reString(gs, 2);
   bool strung = gu.strung();
@@ -55,7 +68,7 @@ int main(){
   strung = gu.strung();
   if (!strung) cout << "Guitar is correctly destrung" << endl;
   printDivider();
-  
+
   printHeader("Check Gauge");
   bool matchg = gu2.matchGauge(0.25);
   if (!matchg) cout << "Gauges don't match (correct)" << endl;
