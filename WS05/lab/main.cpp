@@ -59,11 +59,11 @@ int main()
 
 	// Transfer between accounts
 	cout << "** Testing Fund Transfers **" << endl;
-	if (!cindy.transferFrom(joe))
+	if (!(cindy<<joe))
 		notifyFailure();
-	if (!raya.transferFrom(rohan))
+	if (!(raya<<rohan))
 		notifyFailure();
-	if (joe.transferFrom (ira))
+	if (joe << ira)
 		notifyFailure();
 
 	displayAllAccts();
