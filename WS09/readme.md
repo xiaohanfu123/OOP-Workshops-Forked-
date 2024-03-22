@@ -162,20 +162,22 @@ If you have any additional custom code, (i.e. functions, classes etc) that you w
 
 Upload the files listed above to your `matrix` account. Compile and run your code using the `g++` compiler as shown in [Compiling and Testing Your Program](#compiling-and-testing-your-program) and make sure that everything works properly.
 
-Then, run the following command from your account
-- replace `profname.proflastname` with your professor’s Seneca userid
-- replace **??** with your subject code (2**00** or 2**44**)
-- replace **#** with the workshop number
-- replace **X** with the workshop part number (**1** or **2**) 
-```text
-~profname.proflastname/submit 2??/w#/pX
+Then, run the following command from your matrix account
+
+```bash
+~profname.proflastname/submit 2??/wX/pY_sss  <ENTER>
 ```
+- Replace **??** with your subject code (`00 or 44`)
+- Replace **X** with Workshop number: [`1 to 10`]
+- Replace **Y** with the part number: [`1 or 2`]
+- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
+
 and follow the instructions.
 
 #### Submitting Utils Module
 To have your custom Utils module compiled with your workshop and submitted, add a **u** to the part number of your workshop (i.e **u**p1 for part one and **u**p2 for part two) and issue the following submission command instead of the above:
 ```text
-~profname.proflastname/submit 2??/w#/upX
+~profname.proflastname/submit 2??/wX/upY_sss  <ENTER>
 ```
 See [Custom Code Submission](#custom-code-submission) section for more detail
 
